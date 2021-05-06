@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 /*!
 * Start Bootstrap - One Page Wonder v5.1.0 (https://startbootstrap.com/theme/one-page-wonder)
 * Copyright 2013-2021 Start Bootstrap
@@ -478,6 +481,12 @@ mark,
   height: auto;
 }
 
+.img-fixed {
+  max-width: 100%;
+  height: 400px;
+  width: 600px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -489,6 +498,12 @@ mark,
 
 .figure {
   display: inline-block;
+}
+
+.hr {
+  width: 75%;
+  margin-top: 50px; 
+  margin-bottom: 50px
 }
 
 .figure-img {
@@ -10044,6 +10059,17 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
+footer.masthead {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 75px;
+}
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
@@ -10096,4 +10122,37 @@ header.masthead .bg-circle-4 {
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
   }
+}
+
+/* Colors */
+
+footer {
+  width: 100%;
+  display: inline-block;
+  height: 70px;
+  background-color: #999;
+}
+
+.linked {
+  color: "#1E83AE";
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.face {
+  background-color: "#3D5B94";
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.tweet {
+  background-color: "#3DACDD";
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.support {
+  background-color: "#6dcd9a";
+  font-size: 0.8em;
+  width: 40%;
 }
