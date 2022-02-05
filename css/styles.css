@@ -162,7 +162,6 @@ sup {
 }
 
 a {
-  color: #ee0979;
   text-decoration: none;
   background-color: transparent;
 }
@@ -10062,7 +10061,6 @@ header.masthead {
 
 footer.masthead {
   position: relative;
-  overflow: hidden;
   background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
   background-repeat: no-repeat;
   background-position: center center;
